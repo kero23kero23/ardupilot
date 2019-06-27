@@ -364,6 +364,11 @@
 #ifndef MODE_ZIGZAG_ENABLED
 # define MODE_ZIGZAG_ENABLED !HAL_MINIMIZE_FEATURES
 #endif
+//////////////////////////////////////////////////////////////////////////////
+// BrgNoGps
+#ifndef MODE_BRG_NOBPS_ENABLED
+# define MODE_BRG_NOBPS_ENABLED !HAL_MINIMIZE_FEATURES
+#endif
 
 //////////////////////////////////////////////////////////////////////////////
 // Beacon support - support for local positioning systems
